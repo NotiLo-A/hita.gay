@@ -207,29 +207,6 @@ onBeforeUnmount(() => {
 
           <div class="dropdown">
             <button
-              class="menu-btn shrines"
-              :class="{ active: activeDropdown === 'shrines' }"
-              @click.stop="toggleDropdown('shrines')"
-            >
-              <u>S</u>hrines
-            </button>
-            <div
-              v-show="activeDropdown === 'shrines'"
-              class="dropdown-content sdropdown-content"
-            >
-              <a href="/shrines/romeo.html"><u>R</u>omeo Montague</a>
-              <a href="/shrines/whoisthat.html"><u>G</u>roundhog Day Musical</a>
-              <a href="/shrines/Daisy_Jones_&amp;_The_Six.html"><u>D</u>aisy Jones &amp; The Six</a>
-              <a href="/shrines/julieandthephantoms.html"><u>J</u>ulie and the Phantoms</a>
-              <a href="/shrines/acnh/index.html"><u>A</u>nimal Crossing New Horizons</a>
-              <a href="/shrines/tomodachilife.html"><u>T</u>omodachi Life: Living the Dream</a>
-              <hr />
-              <a href="https://halloveen.party/"><u>H</u>alloween Site</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button
               class="menu-btn links"
               :class="{ active: activeDropdown === 'links' }"
               @click.stop="toggleDropdown('links')"
